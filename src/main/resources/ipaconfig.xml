@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--- Sample Configuration of framework -->
+<account user="user"> <!--- user - Set as current user logged in as-->
+    <os value="ios"/> <!--- os - os type to -->
+    <apppath value="/Users/user/workspace/resources/app/NativebaseKitchenSink.app"/> <!-- Location of the apk or ipa file to test on-->
+    <!-- These are all the credentials needed for an iOS app See apkconfig.xml to see configuration for Android apps-->
+</account>
