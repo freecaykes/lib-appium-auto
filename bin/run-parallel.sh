@@ -3,14 +3,14 @@
 echo START_TIME: `date`
 
 # declare APP_PATH
-export APP_PATH="/Users/user/workspace/resources/apk/app-internal-automation.apk"
+export APP_PATH="../app-internal-automation.apk"
 
 # start emulator and appium in background with
 ##################################################
 # PATHS
 ##################################################
-WORKSPACE="/Users/user/workspace/grideo-android-automation/automatedTests/"
-ANDROID_TOOLS="/Users/user/Library/Android/sdk/tools"
+WORKSPACE="./"
+ANDROID_TOOLS="../Library/Android/sdk/tools"
 cd ${ANDROID_TOOLS}
 devices=( $(./emulator -list-avds) )
 
